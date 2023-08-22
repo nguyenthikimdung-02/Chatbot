@@ -1,0 +1,184 @@
+version: "3.1"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - có ai ở đây không?
+    - chào
+    - cho tôi hỏi
+    - xin chào
+    - hê sờ lô hê sờ ly ly
+    - alooo
+    - bắt đầu
+
+- intent: goodbye
+  examples: |
+    - tạm biệt
+    - hẹn gặp lại sau
+    - tôi đi đây
+    - bái bai
+    - bye
+    - goodbye
+    - ta đi đây
+    - tôi đi đây
+    - bye bye
+    - tôi phắn đây
+
+- intent: pay_room
+  examples: |
+    - Cho tôi xin giá phòng
+    - Giá phòng cho một ngày là bao nhiêu
+    - Phòng của khách sạn có giá bao nhiêu
+    - Giá phòng
+    - Giá phòng là bao nhiêu
+
+- intent: book_room
+  examples: |
+    - Tôi muốn đặt phòng
+    - Đặt phòng
+    - Làm thế nào để đặt phòng
+    - Muốn đặt phòng thì phải làm thế nào?
+    - Có được đặt phòng trực tuyến hay không?
+    - Đặt phòng như thế nào
+    - Tôi muốn một phòng
+    - Tôi muốn 2 phòng
+    - Đặt phòng có cần phải ra trực tiếp tận nơi không?
+    - Đặt phòng ở đâu
+
+- intent: details_hotel
+  examples: |
+    - Thông tin của khách sạn
+    - Tôi cần thông tin của khách sạn
+    - Bạn có thể cung cấp cho tôi thông tin khách sạn không?
+    - Khách sạn có lịch sử như nào
+    - Khách sạn có bao nhiêu phòng?
+
+- intent: other_pay
+  examples: |
+    - Khách sạn có chi phí khác nào nữa không?
+    - Các chi phí khác như thế nào?
+    - Khách sạn có phí khác nữa không
+    - Chi phí khác chắc không có đâu haaa
+    - Có phát sinh thêm chi phí khác không
+
+- intent: hotline
+  examples: |
+    - số hotline
+    - hotline
+    - cho tôi xin số hotline
+    - số hotline của khách sạn là gì
+    - cho tôi hỏi số hotline của khách sạn
+    - khách sạn có số hotline không
+    - chắc khách sạn có số hotline chứ ha
+    - số hotline đâu, đưa ra đâyyy
+    - đưa số hotline đây, mau lênn
+    - hotline hotline hotline
+
+
+- intent: pet_room
+  examples: |
+    - Có được phép đưa theo vật nuôi không?
+    - Vật nuôi được phép vào khách sạn không?
+    - Có chỗ cho thú cưng không?
+    - Tôi có thể đem theo chó không?
+    - Đem mèo theo có được không?
+    - Khách sạn có cho phép vật nuôi vào phòng không?
+    - Tôi được đem thú cưng vào phòng không?
+    - Thú cưng đưa vào khách sạn sẽ được đưa đi đâu
+    - Tôi dẫn theo vật nuôi có được không?
+    - Tôi đem theo vật nuôi
+
+- intent: pool_hotel
+  examples: |
+    - Khách sạn có hồ bơi không?
+    - Hồ bơi khách sạn nằm ở đâu
+    - Hồ bơi sâu bao nhiêu
+    - hồ bơi rộng bao nhiêu
+    - hồ bơi dài bao nhiêu
+    - trẻ em có được phép xuống hồ bơi không
+    - hồ bơi được thay nước bao nhiêu lần trong ngày
+    - có thay nước cho hồ bơi ko dị ba
+    - hồ bơi nhớ thay nước thường xuyên nha pà già
+    - hồ bơi hồ bơi hồ bơi
+
+- intent: parking_lot
+  examples: |
+    - Khách sạn có bãi đậu xe không?
+    - bãi đậu xe nằm ở ngoài hay trong khách sạn
+    - vị trí của bãi đậu xe
+    - có bãi đậu xe máy không dị bạn ơi
+    - có bãi đậu cho trực thăng không bạn tôi ơiii
+    - chắc có bãi đậu xe chứ ha
+    - bãi đậu xe chứa được bao nhiêu xe
+    - có bao nhiêu bãi đậu xe
+    - khách sạn có bao nhiêu bãi đậu xe
+    - có thể chỉ cho tôi cái bãi đậu xe ở đâu được không
+
+- intent: pay_parking_lot
+  examples: |
+    - phí đậu xe
+    - cho tôi hỏi phí đậu xe
+    - phí đậu xe cho các loại xe là bao nhiêu
+    - phí đậu xe của xe máy
+    - phí đậu xe của xe đạp
+    - phí đậu xe của ô tô
+    - phí đậu xe là bao nhiêu
+    - phí đậu xe được tính như nào
+    - đậu xe có tính phí không
+    - đậu xe tính phí bao nhiêu
+
+- intent: working_time
+  examples: |
+    - thời gian làm việc của khách sạn là khi nào?
+    - thời gian làm việc của các bạn
+    - thời gian mở cửa khách sạn
+    - thời gian ngừng nhận khách của khách sạn
+    - các bạn làm tới mấy giờ
+    - khách sạn làm việc khi nào
+    - khách sạn khi nào đóng cửa
+    - tôi có thể đến lúc nào cũng được đúng không
+    - khách sạn có mở 24/7 không
+    - khách sạn có đóng cửa không
+
+- intent: wifi_room
+  examples: |
+    - Khách sạn có internet không?
+    - Internet của khách sạn có mạnh không
+    - mỗi phòng có wifi riêng không
+    - khách sạn có bao nhiêu phòng có wifi
+    - khách sạn có wifi không
+    - wifi của khách sạn chắc có chứ ha
+    - khách sạn có internet chứ?
+    - internet, you có khum?
+
+- intent: food_hotel
+  examples: |
+    - Khách sạn có những món ăn nào?
+    - Khách sạn có món ăn sáng không?
+    - có món ăn chay không?
+    - có những món ăn nào
+    - khách sạn có bánh ăn vặt không
+    - có bánh ăn vặt không
+    - khách sạn có sting honggg
+    - cho bổn cung xin cái menuuuu
+    - menu món ăn
+    - thức ăn ở khách sạn
+
+- intent: cancel_room
+  examples: |
+    - Xin lỗi, nhưng mà tôi muốn hủy phòng?
+    - Bây giờ tôi có thể hủy phòng hay không?
+    - Hủy phòng
+    - Tôi muốn hủy phòng
+    - Tôi có thể hủy phòng đã đặt trước không?
+
+- intent: who
+  examples: |
+    - Bạn là ai?
+    - Ai đang nói chuyện với tôi vậy
+    
+
+

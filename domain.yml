@@ -1,0 +1,126 @@
+
+intents:
+  - greet
+  - goodbye
+  - pay_room
+  - book_room
+  - details_hotel
+  - other_pay
+  - hotline
+  - pet_room
+  - pool_hotel
+  - parking_lot
+  - pay_parking_lot
+  - working_time
+  - wifi_room
+  - food_hotel
+  - cancel_room
+  - who
+
+responses:
+
+  utter_greet:
+    - text: "Xin chào! Tôi có thể giúp gì cho bạn?"
+
+  utter_pay_room:
+  - text: "Phòng của khách sạn có giá là 250k/phòng đơn
+  và 400k/phòng đôi."
+
+  utter_book_room:
+  - text: "Để đặt phòng, bạn vui lòng đến trực tiếp quầy
+  thu ngân tại khách sạn để hoàn tất thủ tục"
+  - text: "Bạn vui lòng đến trực tiếp quầy thu ngân để đặt
+  phòng nhé!. Khách sạn chúng tôi vẫn chưa có hệ thống
+  đặt phòng online. Mong bạn thông cảm vì sự bât tiện này!.
+  Trân trọng cảm ơn!."
+  
+  utter_details_hotel:
+  - text: "Khách sạn được thành lập vào tháng 11/2022 bởi nhóm OK.
+  Do T.N.H.T làm nhóm trưởng, rất vui nếu không bị rớt môn
+  và không bị deadline đè sấp mặt"
+  - text: "Khách sạn có tên OK được thành lập vào tháng 11/2022.
+  Với sự tham gia của 5 thành viên, gồm: Trần Ngọc Hiếu Thảo,
+  Dương Thị Phương Thi, Nguyễn Tửu Tiến, Nguyễn Tô Bảo Ngọc,
+  Nguyễn Thị Kim Dung."
+
+  utter_other_pay:
+  - text: "Chi phí khác bao gồm:
+  Phí giặt ủi: 70k, phí vệ sinh: 100k, phí phục vụ: 200k"
+  
+  utter_hotline:
+  - text: "Số hotline là: 09000128"
+
+  utter_pet_room:
+  - text: "Xin lỗi quý khách, khách sạn không cho phép thú cưng 
+  ra vào. Tuy nhiên sẽ có nhân viên phụ trách đưa vật nuôi
+  đến nơi ở của chúng."
+
+  utter_pool_hotel:
+  - text: "Khách sạn có hồ bơi nằm ở vị trí phía trước tòa C.
+  Hồ bơi có diện tích 50m vuông, có thể cho bé trên 1m2 xuống bơi,
+  tuy nhiên phải có sự giám sát của người lớn. Mỗi ngày sẽ được
+  thay nước 3 lần, bao gồm: sáng, trưa, chiều"
+  
+  utter_parking_lot:
+  - text: "Khách sạn có bãi đậu xe bên trong, có thể cho xe đạp,
+  xe máy, ô tô ra vào. Bao gồm 2 bãi đậu, có thể chứa được tất cả 800 xe"
+
+  utter_pay_parking_lot:
+    - text: "Phí đậu xe của xe máy là 5k/xe, ô tô là 10k/xe và 
+    xe đạp không cần phí."
+
+  utter_working_time:
+  - text: "Khách sạn làm việc 24/7. Có thể tiếp đón quý khách bất cứ lúc nào."
+
+  utter_wifi_room:
+  - text: "Tất cả các phòng trong khách sạn đều có internet. Mỗi phòng
+  sẽ có wifi riêng, được cung cấp password khi nhận phòng."
+
+  utter_food_hotel:
+  - text: "Thực đơn của khách sạn đa dạng các món, hơn nữa
+  còn có nhà hàng có thể phục vụ món ăn quý khách bất cứ lúc nào
+  và bất kì món nào. Quý khách muốn đặt món vui lòng liên hệ
+  số hotline. Chúc quý khách vui vẻ."
+
+  utter_cancel_room:
+    - text: "Quý khách muốn hủy phòng vui lòng ra trực tiếp
+    quầy thu ngân để hoàn tất thủ tục. Xin cảm ơn."
+
+  utter_goodbye:
+  - text: "Tậm biệt! Chúc bạn một ngày tốt lành"
+
+  utter_who:
+  - text: "Tôi là bot, được tạo bởi nhóm OK"
+
+  utter_iamabot:
+    - text: "Tôi là bot, được tạo bởi nhóm OK"
+
+  utter_unclear:
+    - text: "Xin lỗi, tôi chưa hiểu rõ ý của bạn."
+
+actions:
+    - utter_greet
+    - utter_pay_room
+    - utter_book_room
+    - utter_details_hotel
+    - utter_other_pay
+    - utter_hotline
+    - utter_pet_room
+    - utter_pool_hotel
+    - utter_parking_lot
+    - utter_pay_parking_lot
+    - utter_working_time
+    - utter_wifi_room
+    - utter_food_hotel
+    - utter_cancel_room
+    - utter_goodbye
+    - utter_who
+    - utter_iamabot
+    - utter_unclear
+
+entities:
+  - number
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

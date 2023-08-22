@@ -1,0 +1,23 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJydjkEKwCAMBL/iA/oCv1JKEFmKoLHE2Ivk7xXsvdDbDgzD7sM2Ny7BTSFqquzdWIM4FHj3Qk5NwdPtDTKdxBPVu1MAtY9GV4XQUv8VPl7EwBGZpNZidjyMIVDW": "utter_cancel_room",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVyYl5yak58UX5+bnEuQVZA37TYgG9426+": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVBYmV8UX5+bm1tbEAnHhPug==": "utter_pay_room",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVBYmV8UX5+bnEOQSuGo85sQDvEmtq": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMgV+fkpSZWptbWxAExvTz0=": "utter_goodbye",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMgV+fkpSZWpRLoDqhi3KbEAotRp8w==": "action_listen",
+    "eJydjlEKgCAQBa+yB+gEXiVCLJaQypV1DUK8e4LSr+HfezAMM6c8QfKMtzabWHIKUh3amQsVtHPaIOgKGwNyYawrVxTsjCi544giyLqiY4ZOhTePZqLrX8hHD3s6OSvR0TzLCwSChu4=": "utter_book_room",
+    "eJydjlEKgCAQBa/iATqBV4kQiyWkdGVdgxDvnmDUX1Z/78EwTJ9yJ5In2JSe2KCTItWhnLYgxXlWExhcYWMAKoxx5bIUMwFwbjgiM5Cq6D9Do8LrXRGifRdy0b89jZwRcfnQc+NPpuEAJD+jYA==": "action_listen",
+    "eJydj1EKgCAQBa/iATqBV4kQi6WkdGXdghDvnmDUp+XfPhiG2T6mTkRPcCg9sUEnRSyHctqCFPfYTGBwmd0DUGaMy5OlmAmAU8WxMwOpgrYZKhVen4oQ7beQh272VHJGxPVHz4u3mypFyEt5PKXhAvgLvug=": "utter_other_pay",
+    "eJydj1EKgCAQBa/iATqBV4kQi6WkdGNdg5DunmDUX5Z/+2AYZtt4NCKuBJvSAxt0UsR8KKctSHGNxXgGl9jggRJjXJosxUgAfBQcgRlIZbTOUKhY9a4I0X4LuelqTyGnR5x/9Dx4valQhDzlx78VPfibqTsBSCvbYg==": "action_listen",
+    "eJydkWEKwjAMRq/SA3iCXkUkVAmu2PUbWSZI6d0tVLafmf2XwOPxQq6lXlxZhN8UHhqRvSt9oBxm9u63pLgq58ZuK0tjYm6revcUZq2GY1NloY6OGYyKJXxIgPlcyE4Pe4ycO/D6o+fAx01GEXTqh58rOvBxk/UyINEE5VTr7QvU0fdU": "utter_pool_hotel",
+    "eJydkVEKwyAMQK/iAXoCr1JGcCWsUmtKmhaG9O4TLPNvcf4l8Hi8kDFdg0kb4wluEk/RmlQGiG5Fa+4l+F0wZvbYkTPjY17FmhcjyqU4DhFkKGifQanY3BuYaG0L+dLdHiXnSbT80VPxfpNSRDKXw9uKKt5v0l5GFGAmwdD4tMr/dD0+nxkUsQ==": "action_listen",
+    "eJylklEKwyAQBa/iAXoCr1KKmHZppMYXzKYQxLtXMNTPtfbPhWEY2b2mfFFpjfQ29s4OQatUHybYhbQ6B+82plDYfaNYGBfKyFo9IxFnwbEzUzQVHTMIFas9TASWvpAvPewRcibg9UNPw8dNQhF4rh/vK2r4uElaGeDNDCbfubTG/+GSrhl4TAflfPsA7yYvVw==": "utter_goodbye",
+    "eJylklEKwyAQBa/iAXoCr1KKmHZppMYXzKYQJHevYIhfZa39c2EYRnavab+oNEd6G3tnh6BVKg8T7ERaHYN3C1PI7LpQzIwLeWStnpGId8GxMlM0Be0zCBWz3UwEpraQk+72CDkD8Pqhp+L9JqEIPJaPtxVVvN8krQzwZgSTb1xa5f9wSdcMPIaNGu/5gL9bbh+ML0oN": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVSfn52fFF+fm5tbWxAOwQUBs=": "utter_book_room",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVSfn52fFF+fm5xLkEoRyfSbEAMe5sjQ==": "action_listen"
+  }
+}

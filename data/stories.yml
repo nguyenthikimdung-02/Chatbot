@@ -1,0 +1,52 @@
+version: "3.1"
+
+stories:
+
+## chào hỏi
+- story: chao hoi
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: goodbye
+  - action: utter_goodbye
+
+## dat phong
+- story: check out
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: book_room
+  - action: utter_book_room
+
+##huy phong
+- story: cancel room
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: cancel_room
+    - action: utter_cancel_room
+
+##hoi gia phong
+- story: pay_room
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pay_room
+    - action: utter_pay_room
+
+## chào - hỏi giá phòng - đặt phòng - các phí khác - hồ bơi - tạm biệt
+- story: test
+  steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: pay_room
+    - action: utter_pay_room
+    - intent: book_room
+    - action: utter_book_room
+    - intent: other_pay
+    - action: utter_other_pay
+    - intent: pool_hotel
+    - action: utter_pool_hotel
+    - intent: goodbye
+    - action: utter_goodbye
+
